@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cornpop Time</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="styles/site.css">
+		<link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16">
+	</head>
+	
+	<body>
+		<div class="header fill redBot">
+			<div class="flex wide">
+				<div class="flex1">
+					<a href="#index.html">
+						<img src="img/logo.png" alt="logo.png">
+					</a>
+				</div>
+				<div class="flex2">
+					<ul>
+						<li><a href="#home" class="links nav"><img src="img/home.png"></a></li>
+						<li><a href="#movies" class="links nav"><img src="img/movies.png"></a></li>
+						<li><a href="#about" class="links nav"><img src="img/about.png"></a></li>
+						<li><a href="#news" class="links nav"><img src="img/news.png"></a></li>
+						<li><a href="#premium" class="links nav"><img src="img/premium.png"></a></li>
+					</ul>		
+				</div>
+			</div>
+		</div>
+
+		<div class="movieList redBot">
+			<div class="flex fill">
+				<div class="flex1">
+					<a href="http://dreamfilmhd.sh/movies/details/5729-chef/" class="poster"><img src="img/chef.jpg"></a>
+					<a href="http://dreamfilmhd.sh/movies/details/2652-the-conjuring/" class="poster"><img src="img/conjuring.jpg"></a>
+					<a href="#" class="poster"><img src="img/godfather.jpg"></a>
+					<a href="#" class="poster"><img src="img/babadook.jpg"></a>
+					<a href="#" class="poster"><img src="img/hobbit.jpg"></a>
+					<a href="#" class="poster"><img src="img/pirates.jpeg"></a>
+					<a href="#" class="poster"><img src="img/lala.jpeg"></a>
+					<a href="#" class="poster"><img src="img/lego.jpg"></a>
+					<a href="#" class="poster"><img src="img/ranger.jpg"></a>
+					<a href="#" class="poster"><img src="img/saw.jpg"></a>
+					<a href="#" class="poster"><img src="img/lebowski.jpg"></a>
+					<a href="#" class="poster"><img src="img/trainspotting.jpg"></a>
+					<a href="#" class="poster"><img src="img/short.jpg"></a>
+					<a href="#" class="poster"><img src="img/deadpool.jpg"></a>
+					<a href="#" class="poster"><img src="img/hobbit3.jpg"></a>
+					<a href="#" class="poster"><img src="img/virgin.jpg"></a>
+					<a href="#" class="poster"><img src="img/batman.jpg"></a>
+					<a href="#" class="poster"><img src="img/hangover.jpg"></a>
+				</div>
+			</div>
+		</div>
+		<div class="searchDiv fill">
+			<div class="flex searchBox">
+				<div class="flex1">
+					<input class="searchBar left redAround">
+					<input class="right searchButton" type="image" src="img/searchButton.png" alt="Submit">
+				</div>
+			</div>
+		</div>
+		<div class="mainContent flex wide">
+			<div class="thumbnail flex1 redAround">
+			</div>
+			<div class="movieInfo flex3 redAround">
+				<div class="flex">
+					<div id="movieTitle">
+						<a href="#">
+						<h1>The Babadook (2014)</h1>
+						</a>
+					</div>
+
+				</div>
+				<div class="flex">
+					<div class="movieDescription flex1">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac mattis lectus. Praesent felis justo, vestibulum vel dolor eu, iaculis laoreet ligula. Sed sodales ligula et varius lobortis.<br><br>Nunc et odio et mauris tristique tristique non vitae felis. Praesent mollis accumsan est et faucibus. Nullam tempus tincidunt urna, ac semper lectus molestie ullamcorper. Nam odio dui, suscipit in justo id, consectetur dignissim ante.<br><br>Aliquam mi neque, varius vitae nisi at, malesuada scelerisque nunc. Suspendisse eleifend eros id mi ornare mollis.</p>
+					</div>
+					<div id="imgBox" class="flex1">
+						<a href="#"><img src="img/scene1.png" class="CropCenter"></a>
+						<script>
+							NumberOfImagesToRotate = 5;	
+						
+							FirstPart = '<a href="#"><img src="img/scene';
+							SecondPart = '.png" class="CropCenter"></a>';
+
+							var elem = document.getElementById("imgBox");
+							setInterval(changeImage, 5000);
+							
+							function changeImage() {
+								var randomNumber = Math.ceil(Math.random() * NumberOfImagesToRotate);
+								elem.innerHTML = FirstPart + randomNumber + SecondPart;
+							}
+
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer fill">
+			<p id="copy">&copy;2017 Elis Pettersson Gradin</p>
+			<ul>
+				<li><a href="#" class="footerContent">Terms and Conditions</a></li>
+				<li><a href="#" class="footerContent">Contact</a></li>
+				<li><a href="#" class="footerContent">FAQ</a></li>
+				<li><a href="#" class="footerContent">About</a></li>
+				<li><a href="#" class="footerContent">Customer Service</a></li>
+			</ul>
+		</footer>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"</script>
+	</body>
+</html>
+
+
+
+
+
+
+
+
+

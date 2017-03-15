@@ -1,0 +1,162 @@
+body {
+	background-image: url("../img/backdrop5.jpg");
+	margin: 0px;
+	font-family: arial;
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+body, div {box-sizing: border-box;}
+
+a {
+	text-decoration: none;
+}
+
+div.wide {
+	width: 1350px;
+	margin: auto;
+}
+div.fill {width: 100%;}
+div.flex {display: flex;}
+div.header {
+	height: 120px;
+	padding: 15px 0px;
+	background-image: url("../img/backdrop5.jpg");
+}
+
+h1 {
+	color: #8B0000;
+	font-family: arial-black;
+	font-size: 40px;
+}
+
+ul {
+	list-style: none;
+	display: inline-block;
+	float: right;
+}
+
+li {
+	float: left;
+}
+
+
+.redBot {border-bottom: 1px solid #8B0000;}
+.redAround {border: 2px solid #8B0000;}
+
+.flex1 {flex: 1;}
+.flex2 {flex: 2;}
+.flex3 {flex: 3;}
+.flex4 {flex: 4;}
+
+.left {float: left;}
+.right {float: right;}
+
+.centerText {text-align: center;}
+
+
+.links {
+	margin: auto;
+	color: #8B0000;
+}
+.links:hover {
+	border-bottom: 2px solid #8B0000;
+}
+
+.movieList {
+	height: 200px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	font-size: 0;
+}
+
+
+
+.searchDiv {
+	height: 80px;
+}
+
+.searchBox {
+	margin: auto;
+	justify-content: center;
+	width: 560px;
+	padding-top: 15px;
+}
+.searchBar {
+	width: 500px;
+	height: 45px;
+	font-size: 20px;
+}
+
+.searchButton:hover {
+	border: 3px solid #8B0000;
+}
+
+
+
+.mainContent {
+	height: 450px;
+}
+
+.thumbnail {
+	background: no-repeat url("../img/babadookPoster.jpg") 100%;
+	background-size: cover;
+	background-position: top;
+}
+
+.movieInfo {
+	margin-left: 30px;					/*Går att ha 'LeftMargin30' som en egen klass men blir tydligare för mig själv i framtiden om jag har det i separata klasser, + att man kan ändra saker i div'sen då.*/
+}
+#movieTitle {
+	margin-left: 30px;
+}
+
+.movieDescription {
+	padding: 0px 40px;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+#imgBox {
+	margin: 0px 40px 40px 0px;
+	overflow: hidden;
+	text-align: center;
+}
+
+img.CropCenter {
+    left: 50%;
+    margin-left: -100%;
+    position: relative;
+    width: auto !important;
+    height: 320px !important;
+}
+
+.footer {
+	background-color: black;
+	color: #888888;
+	margin-top: 20px;
+	height: 60px;
+	text-align: right;
+}
+
+.footerContent {
+	margin: 0px 60px 0px 60px;
+	color: #474747;
+}
+
+.footerContent:hover {
+	color: #888888;
+}
+
+#copy {
+	margin-left: 30px;
+	color: #474747;
+	float: left;
+}
+
+
+
+
+

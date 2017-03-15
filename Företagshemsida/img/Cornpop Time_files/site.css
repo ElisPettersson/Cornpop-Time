@@ -1,0 +1,86 @@
+body {
+	background-image: url("../img/backdrop.jpg");
+	margin: 0px;
+	font-family: arial;
+	color: #fff;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+body, div {
+	box-sizing: border-box;
+}
+
+div.wide {
+	width: 1350px;
+	margin: auto;
+}
+
+div.fill {
+	width: 100%;
+}
+
+div.flex {
+	display: flex;
+}
+
+.redBot {border-bottom: 1px solid #8B0000;}
+
+h1 {
+	color: #8B0000;
+	font-family: arial-black;
+	font-size: 40px;
+}
+
+
+div.header {
+	width: 100%;
+	margin: 0;
+	height: 120px;
+	padding: 15px 0px;
+}
+
+ul {
+	list-style: none;
+	display: inline-block;
+	float: right;
+}
+
+li {
+	float: left;
+}
+.flex1 {flex: 1;}
+.flex2 {flex: 2;}
+.flex3 {flex: 3;}
+.flex4 {flex: 4;}
+
+.links {
+	text-decoration: none;
+	margin: auto;
+	font-weight: bold;
+	color: #8B0000;
+}
+
+.links:hover {
+	border-bottom: 2px solid #8B0000;
+}
+
+.movieList {
+	background-color: grey;
+	height: 200px;
+	overflow-x: auto;
+	overflow-y: auto;
+	white-space: nowrap;
+}
+
+.poster {
+	float: left;
+}
+
+
+
+
+
+
+
+
